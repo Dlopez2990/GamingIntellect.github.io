@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>About Us | GamingIntellect.com</title>
+    <!-- Include Bootstrap CSS from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        /* Add any additional styling for the contact page here */
+        body {
+            background-image: url('Gamebackground.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            background: none; /* Resetting background for the container */
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.7); /* Adjusted background for the navigation */
+        }
+
+        header,
+        section,
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="contact.html">Contact</a>
+    </nav>
+    <figure>
+        <img src="SVG Image.svg" alt="GamingIntellect Logo" style="width: 30%; height: auto;">
+    </figure>
+    <header>
+        <h1>About Us</h1>
+        <p>My name is Daniel Lopez, and growing up in the vibrant yet challenging streets of Chicago, I navigated through my fair share of close encounters with gangs. However, amidst the chaos of the city, I found solace within the walls of my home. It was here that I discovered my true passion – gaming.
+
+            At a young age, I fell head over heels for the world of video games. My initiation into this digital realm was marked by playing my first game from my brother's collection, a gem called "Getting Up" on the Xbox original. Little did I know, this seemingly simple act would spark a lifelong love affair with gaming.
+            
+            Getting Up wasn't just a game; it was a revelation. It showed me that video games were more than just a source of entertainment – they were a canvas for rich and immersive storytelling. As I delved into the narrative of the game, I realized the power of this medium to convey meaningful stories and evoke genuine emotions.
+            
+            From that moment on, my gaming journey became a parallel narrative to my real-life experiences. While the streets outside echoed with the sounds of urban struggles, inside, I was embarking on epic quests, solving intricate puzzles, and immersing myself in virtual worlds that transported me far beyond the confines of my neighborhood.
+            
+            Gaming became more than a hobby; it became a refuge, a place where I could explore my creativity and challenge my intellect. As I honed my skills, I discovered the intricate artistry behind game design and storytelling, inspiring me to dream of a future where I could contribute to this dynamic industry.
+            
+            In the midst of adversity, gaming became my ally, shaping my perspective and providing an escape from the harsh realities of life. It taught me resilience, problem-solving, and the importance of narrative in any form of art.
+            
+            Looking back, I see the profound impact that a simple Xbox game had on my life. It not only fueled my passion for gaming but also became a driving force behind my aspirations. Today, as I reflect on those early days in Chicago, I recognize the transformative power of video games – a power that turned a young boy's escape into a lifelong pursuit of creativity and storytelling.</p>
+    </header>
+
+    <section>
+        <h2>Email</h2>
+        <p>You can contact me via email at <a href="mailto:GamingIntellect@gmail.com">GamingIntellect@gmail.com</a>.</p>
+
+        <!-- You can add additional contact methods (e.g., social media, phone number, etc.) here -->
+    </section>
+
+    <!-- Newsletter Container -->
+    <section class="container">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with the latest gaming news and content by subscribing to our newsletter.</p>
+
+        <form id="newsletterForm">
+            <label for="newsletterEmail">Email:</label>
+            <input type="email" id="newsletterEmail" name="newsletterEmail" required>
+            <button type="submit">Subscribe</button>
+        </form>
+
+        <script>
+            document.getElementById('newsletterForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+                var email = document.getElementById('newsletterEmail').value;
+                alert('Subscribed with email: ' + email);
+                // You can send the email to your backend for subscription handling
+            });
+        </script>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 GamingIntellect.com</p>
+    </footer>
+
+    <!-- Include Bootstrap's JavaScript and jQuery from CDNs -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
